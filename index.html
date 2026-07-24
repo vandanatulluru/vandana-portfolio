@@ -1,0 +1,135 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Tulluru Vandana - Computer Science and Data Science student portfolio.">
+  <title>Tulluru Vandana | Portfolio</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <style>
+    .contact-phone { color: #edf0e8; font: 15px var(--mono); text-decoration: none; display: inline-block; margin: 13px 0 0; }
+    .contact-phone:hover { color: var(--lime); }
+  </style>
+</head>
+<body>
+  <div class="noise" aria-hidden="true"></div>
+  <header class="nav-wrap">
+    <nav class="nav container" aria-label="Primary navigation">
+      <a class="monogram" href="#top" aria-label="Tulluru Vandana home">TV<span>.</span></a>
+      <button class="menu-button" type="button" aria-label="Open navigation" aria-expanded="false">Menu</button>
+      <div class="nav-links">
+        <a href="#about">About</a><a href="#work">Work</a><a href="#skills">Skills</a><a href="#contact">Contact</a>
+      </div>
+      <a class="nav-resume" href="resume.pdf" target="_blank" rel="noreferrer">Resume <span aria-hidden="true">↗</span></a>
+    </nav>
+  </header>
+
+  <main id="top">
+    <section class="hero container">
+      <div class="hero-copy">
+        <p class="eyebrow"><span></span> Available for internships &amp; opportunities</p>
+        <h1>Building thoughtful<br><em>software solutions.</em></h1>
+        <p class="hero-intro">I’m <strong>Tulluru Vandana</strong>, a Computer Science &amp; Data Science student who enjoys turning real requirements into reliable web and ML products.</p>
+        <div class="hero-actions">
+          <a class="button button-primary" href="#work">Explore my work <span>↓</span></a>
+          <a class="text-link" href="mailto:vandanatulluri21@gmail.com">Let’s talk <span>↗</span></a>
+        </div>
+        <div class="social-row" aria-label="Social links">
+          <a href="https://github.com/vandanatulluru" target="_blank" rel="noreferrer">GitHub <span>↗</span></a>
+          <a href="https://www.linkedin.com/in/vandana-tulluru/" target="_blank" rel="noreferrer">LinkedIn <span>↗</span></a>
+          <a href="https://leetcode.com/u/vandana10" target="_blank" rel="noreferrer">LeetCode <span>↗</span></a>
+        </div>
+      </div>
+      <div class="portrait-area">
+        <div class="portrait-label label-top">CSE · Data Science</div>
+        <div class="portrait-frame"><img src="vandana.jpg" alt="Tulluru Vandana in a professional portrait"></div>
+        <div class="portrait-label label-bottom">Hyderabad, India <span>✦</span></div>
+      </div>
+      <a class="scroll-cue" href="#about">Scroll to discover <span>↓</span></a>
+    </section>
+
+    <section class="about section container" id="about">
+      <div class="section-kicker">01 / About</div>
+      <div class="about-content">
+        <h2>Curious by nature.<br>Driven by <em>impact.</em></h2>
+        <div class="about-text">
+          <p>Detail-oriented and hands-on, I bring a strong foundation in web development, SQL, and software development lifecycle practices. I like understanding a problem deeply, then building a clean, useful answer to it.</p>
+          <p>Currently pursuing B.Tech in Computer Science &amp; Engineering (Data Science) at Vardhaman College of Engineering, I am especially interested in full-stack development, machine learning, and quality-focused engineering.</p>
+          <a class="text-link" href="resume.pdf" target="_blank" rel="noreferrer">Read my resume <span>↗</span></a>
+        </div>
+      </div>
+      <div class="facts-grid">
+        <div><span class="fact-number">8.81</span><span class="fact-label">B.Tech CGPA</span></div>
+        <div><span class="fact-number">100+</span><span class="fact-label">LeetCode problems</span></div>
+        <div><span class="fact-number">88.9%</span><span class="fact-label">ML model accuracy</span></div>
+        <div><span class="fact-number">2027</span><span class="fact-label">Expected graduation</span></div>
+      </div>
+    </section>
+
+    <section class="work section container" id="work">
+      <div class="section-heading"><div class="section-kicker">02 / Selected work</div><p>Two practical builds, from user-facing commerce to data-driven project planning.</p></div>
+      <article class="project project-estimation">
+        <div class="project-meta"><span>01</span><span>Sep — Nov 2025</span></div>
+        <div class="project-copy">
+          <p class="project-type">Machine learning · Full stack</p>
+          <h3>ML-Based Software<br>Effort &amp; Cost <em>Estimation.</em></h3>
+          <p>A planning tool that uses a Random Forest model to estimate software effort and cost, paired with validation, unit tests, and a benchmarking dashboard.</p>
+          <div class="tags"><span>FastAPI</span><span>React</span><span>SQLite</span><span>Docker</span><span>Random Forest</span></div>
+          <a class="project-link" href="https://github.com/vandanatulluru/Project_Estimation" target="_blank" rel="noreferrer">View repository <span>↗</span></a>
+        </div>
+        <div class="project-art estimation-art" aria-hidden="true">
+          <div class="chart-card"><div class="chart-title">Estimation confidence <b>88.9%</b></div><div class="bars"><i></i><i></i><i></i><i></i><i></i><i></i><i></i></div><div class="chart-axis"><span>Small</span><span>Large</span></div></div>
+          <div class="metric-pill">Model validated <span>●</span></div>
+        </div>
+      </article>
+      <article class="project project-store">
+        <div class="project-meta"><span>02</span><span>Full-stack web app</span></div>
+        <div class="project-copy">
+          <p class="project-type">E-commerce · REST API</p>
+          <h3>Godrej<span>Store.</span></h3>
+          <p>A complete e-commerce platform with secure JWT authentication, product and order flows, and an end-to-end order-management lifecycle.</p>
+          <div class="tags"><span>React</span><span>Node.js</span><span>Express</span><span>MongoDB</span><span>JWT</span></div>
+          <a class="project-link" href="https://github.com/vandanatulluru/Godrej-store" target="_blank" rel="noreferrer">View repository <span>↗</span></a>
+        </div>
+        <div class="project-art store-art" aria-hidden="true"><div class="store-window"><div class="window-bar"><i></i><i></i><i></i></div><div class="store-title">GODREJ<span>STORE</span></div><div class="product-row"><b></b><b></b><b></b></div><div class="cart">Cart <strong>02</strong></div></div></div>
+      </article>
+    </section>
+
+    <section class="skills section container" id="skills">
+      <div class="section-kicker">03 / Toolkit</div>
+      <div class="skills-head"><h2>What I build<br>with.</h2><p>A balanced stack for building interfaces, APIs, and data-backed applications.</p></div>
+      <div class="skill-list">
+        <div><span>01</span><h3>Languages</h3><p>Python · SQL · C · JavaScript</p></div>
+        <div><span>02</span><h3>Web development</h3><p>HTML · CSS · React.js · Node.js · Express</p></div>
+        <div><span>03</span><h3>Data &amp; ML</h3><p>MongoDB · MySQL · SQLite · Random Forest</p></div>
+        <div><span>04</span><h3>Engineering</h3><p>Git · GitHub · Docker · VS Code · SDLC</p></div>
+      </div>
+    </section>
+
+    <section class="credentials section container">
+      <div class="section-kicker">04 / Beyond the build</div>
+      <div class="credentials-grid">
+        <div><h2>Learning in<br><em>public.</em></h2><p>I keep sharpening both technical foundations and practical judgement through certifications, simulations, and competitive problem solving.</p></div>
+        <ul class="credential-list"><li><span>Patent</span><strong>Automated Roadway Protection System</strong><small>Co-inventor · Indian Patent Office · Published Dec 2025</small></li><li><span>Certification</span><strong>Salesforce Certified Agentforce Specialist</strong><small>Salesforce</small></li><li><span>Certification</span><strong>NLP for Developers</strong><small>Infosys Springboard</small></li><li><span>Experience</span><strong>Virtual internship simulations</strong><small>Deloitte · Tata Group · Salesforce</small></li></ul>
+      </div>
+    </section>
+
+    <section class="education section container">
+      <div class="section-kicker">05 / Education</div>
+      <div class="education-list"><div><span>2023 — 2027</span><h3>B.Tech, Computer Science &amp; Engineering <em>(Data Science)</em></h3><p>Vardhaman College of Engineering · CGPA 8.81</p></div><div><span>2021 — 2023</span><h3>Senior Secondary, TSBIE</h3><p>New Vision Junior College · 96.7%</p></div><div><span>2020 — 2021</span><h3>Secondary, SSC</h3><p>New Vision Concept School · 100%</p></div></div>
+    </section>
+
+    <section class="contact container" id="contact">
+      <p class="eyebrow"><span></span> Ready to collaborate</p>
+      <h2>Let’s make something<br><em>that matters.</em></h2>
+      <a class="contact-email" href="mailto:vandanatulluri21@gmail.com">vandanatulluri21@gmail.com <span>↗</span></a>
+      <a class="contact-phone" href="tel:+917569760164">+91 7569760164 <span>↗</span></a>
+      <div class="contact-footer"><span>© 2026 Tulluru Vandana</span><span>Hyderabad, India</span><div><a href="https://github.com/vandanatulluru" target="_blank" rel="noreferrer">GitHub</a><a href="https://www.linkedin.com/in/vandana-tulluru/" target="_blank" rel="noreferrer">LinkedIn</a></div></div>
+    </section>
+  </main>
+  <script src="script.js"></script>
+</body>
+</html>
